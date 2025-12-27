@@ -258,3 +258,49 @@ h1 {
     h1 { font-size: 3rem; }
     .about-grid, .cert-grid { grid-template-columns: 1fr; }
 }
+
+.tags {
+    display: flex;
+    gap: 8px; /* Khoảng cách giữa các khung */
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.tag {
+    background-color: #f0ebff; /* Màu nền tím nhạt */
+    color: #6c5ce7;           /* Màu chữ tím đậm */
+    padding: 6px 16px;        /* Độ rộng bên trong khung */
+    border-radius: 50px;      /* Bo tròn tạo hình viên thuốc */
+    font-size: 0.85rem;       /* Kích thước chữ */
+    font-weight: 600;         /* Độ đậm chữ */
+    display: inline-block;
+    border: 1px solid #e2d9ff; /* Viền khung mờ */
+}
+
+
+.btn-dark {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #1a1a1a; 
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 12px; 
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn-dark i {
+    font-size: 1.1rem;
+}
+
+.btn-dark:hover {
+    background-color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
